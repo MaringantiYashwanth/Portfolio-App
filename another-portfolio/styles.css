@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  /* background-color: rebeccapurple; */
+  width: 20vw;
+  font-family: "Fira Sans", sans-serif;
+  background-color: gray;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+  /* height: 100vh; */
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: rgb(202, 9, 128); */
+  height: 78vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devPic img {
+  height: 78vh;
+  width: 330px;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+  font-size: 65px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 40px;
+}
+
+.buttons button {
+}
